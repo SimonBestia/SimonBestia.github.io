@@ -1,3 +1,5 @@
 body{
+	height: 200px;
+	background-color: rgb(222,222,222);
 	background-image: linear-gradient(rgb(222,222,222), rgb(200, 200, 200));
 }
