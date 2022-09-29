@@ -1,7 +1,7 @@
 This is just a place to redirect users to somewhere else.
 
 _GitHub_ sites:
-- [_Bully Modding Reference and Documentation_](https://simonbestia.github.io/Bully-Modding-and-Documentation/)
+- [_Bully Modding Reference and Documentation_](https://simonbestia.github.io/Bully-Modding-Documentation/)
 
 Social Media:
 - [![My Twitter][1.2]][1] @SimoBestia
