@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimonBestia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-container">
+            <h1 class="profile-name">SimonBestia</h1>
+            <img src="assets/pfp.png" alt="Profile Picture" class="profile-picture">
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/SimonBestia" target="_blank">
+                <img src="assets/GitHub.svg" alt="GitHub" class="social-icon">
+                <p class="hover-description">Well... you're here already.<br>This is where I'll share the source code for what I make.</p>
+            </a>
+            <a href="https://www.youtube.com/@SimonBestia" target="_blank">
+                <img src="assets/youtube.png" alt="YouTube" class="social-icon">
+                <p class="hover-description">My main YouTube channel.<br>Now I mostly document various unused content.</p>
+            </a>
+            <a href="https://x.com/SimoBestia" target="_blank">
+                <img src="assets/twitter.png" alt="Twitter" class="social-icon">
+                <p class="hover-description">My main social media presence.<br>I rarely post, but I post what's the latest.</p>
+            </a>
+            <a href="https://ko-fi.com/simonbestia" target="_blank">
+                <img src="assets/Kofi.png" alt="Ko-Fi" class="social-icon">
+                <p class="hover-description">I don't really promote this as I'm not used to donations.<br>Still, I'd appreciate it!</p>
+            </a>
+            <a href="https://archive.org/details/@simonbestia" target="_blank">
+                <img src="assets/InternetArchive.svg" alt="The Cutting Room Floor" class="social-icon">
+                <p class="hover-description">I will upload anything that needs archiving, here.</p>
+            </a>
+            <a href="https://www.youtube.com/@SimoneLeccese" target="_blank">
+                <img src="assets/youtube.png" alt="YouTube" class="social-icon">
+                <p class="hover-description">My 2nd YouTube channel.<br>I upload clips needed for TCRF and other random stuff.</p>
+            </a>
+            <a href="https://tcrf.net/Bully" target="_blank">
+                <img src="assets/tcrf.png" alt="The Cutting Room Floor" class="social-icon">
+                <p class="hover-description">Visit this every now and then<br>to keep up-to-date with unused content.</p>
+            </a>
+            <a href="https://throne.com/simonbestia/wishlist" target="_blank">
+                <img src="assets/throne.png" alt="Throne" class="social-icon">
+                <p class="hover-description">Just like Ko-fi, but you contribute directly to items.</p>
+            </a>
+        </div>
+        <p class="profile-description">Focusing on documentation of the videogame "<b>BULLY</b>"/"<b>Canis Canem Edit</b>" by <a href="https://www.rockstargames.com/" target="_blank">Rockstar Games</a>.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const randomPercentage = () => Math.random() * 100 + '%'; // Generate random percentage
+            const x = randomPercentage();
+            const y = randomPercentage();
+            document.body.style.setProperty('--bg-position', `${x} ${y}`);
+        });
+    </script>
+    
+</body>
+</html>
